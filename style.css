@@ -37,3 +37,7 @@ a:hover {
     background: -o-linear-gradient(top, #373737, #212121);
     background: linear-gradient(top, #373737, #212121);
 }
+
+.json-field {
+    font-weight: bold;
+}
