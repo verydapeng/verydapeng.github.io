@@ -1,0 +1,39 @@
+body {
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.header {
+    padding: 50px 10px 30px 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.about {
+    margin: 1em auto;
+    width: 640px;
+    font-family: monospace;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #007edf;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.black-bar {
+    color: #fff;
+    background: #212121;
+    background: -moz-linear-gradient(top, #373737, #212121);
+    background: -webkit-linear-gradient(top, #373737, #212121);
+    background: -ms-linear-gradient(top, #373737, #212121);
+    background: -o-linear-gradient(top, #373737, #212121);
+    background: linear-gradient(top, #373737, #212121);
+}
