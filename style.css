@@ -11,6 +11,11 @@ a, a:visited {
 
 
 @media (max-width: 500px) {
+    
+    body {
+        margin: 10pt
+    }
+    
     .json-key {
         margin: 10pt 0 0 0;
         color: darkgray;
@@ -23,7 +28,6 @@ a, a:visited {
 }
 
 @media (min-width: 500px) {
-
 
     .json-object {
         display: grid;
