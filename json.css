@@ -10,7 +10,7 @@ a, a:visited {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .json-key {
         margin: 10pt 0 0 0;
         color: darkgray;
@@ -22,7 +22,7 @@ a, a:visited {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 
 
     .json-object {
