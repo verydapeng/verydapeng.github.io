@@ -48,8 +48,8 @@ a, a:visited {
     .json-key::after { content: '": '; }
 
     .json-string::before { content: '"'; }
-    .json-string::after { content: '"'; }
-
+    .json-string::after { content: '",'; }
+    .json-string:last-of-type::after { content: '"'; }
 
     .json-array {
         display: flex;
